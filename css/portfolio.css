@@ -1,0 +1,213 @@
+:root= {
+    --main-color: #212121;
+    --accent-color: #757575;
+    ;
+    --blue-color: #2196F3;
+    --wite-color: #FFFFFF;
+    --backgraund-color: #2F303A;
+    --logo-font: 'Raleway', sans-serif;
+    --main-font: 'Roboto', sans-serif;
+    --main-size: 16px;
+    --title-size: 36px;
+    --nav-size: 49px;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 1600px;
+    font: var(--main-font);
+    font-weight: 400;
+    font-size: var(--main-size);
+   
+    
+   
+
+}
+
+.wrapper {
+    background-color: #ECECEC;
+
+
+}
+
+.list {
+    list-style: none;
+
+}
+
+.header {
+    width: 1600px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.navigation {
+    font-family: var(--secondary-font);
+    font-size: var(--main-size);
+    display: flex;
+    margin-left: 215px;
+
+
+
+}
+
+.logo {
+
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: #2196F3;
+    padding-top: 0px;
+    align-items: center;
+
+}
+
+.logo-compani {
+    color: #000000;
+}
+
+.logo-compania {
+    color: #fff;
+}
+
+.navigation-list {
+
+    display: flex;
+
+
+
+}
+
+.navigation-items {
+    margin-right: 50px;
+
+}
+
+.navigation-item:first-child {
+    margin-left: 0;
+}
+
+.navigation-items:active {
+    color: aqua;
+}
+
+.navigation-link {
+    color: var(--accent-color);
+    text-decoration: none;
+
+
+}
+
+.studio-link {
+    color: var(--blue-color);
+}
+
+.comunity-list {
+    display: flex;
+    text-decoration: none;
+    margin-right: 215px;
+
+
+
+
+}
+
+.cmomunity-item {
+    margin-right: 50px;
+}
+
+.cmomunity-item:hover {
+    color: var(--blue-color);
+}
+
+
+
+.comunity-item:first-child {
+    margin-left: 0;
+}
+
+.exemple {
+    width: 1170px;
+    margin: 0 auto;
+  
+}
+.rabota-title {
+    text-align: center;
+}
+.rabota-list {
+    display: flex;
+    width: 611px;
+    height: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+   
+}
+.rabota-link {
+   
+}
+.rabota-btn {
+    
+    border-radius: 4px;
+    padding: 6px 22px;
+    
+    
+    align-items: center;
+  
+    margin-right: 30px;
+    
+}
+.rabota-btn:last-child {
+    margin-right: 0px;
+}
+.robota {
+   
+}
+.robota-list {
+    margin-top: 0;
+    margin-bottom: 0;
+   padding: 215px 0;
+    
+}
+.blok1{
+    display: flex;
+    margin-top: 0;
+}
+.blok2{
+    display: flex;
+}
+.blok3 {
+    display: flex;
+}
+.robota-item {
+    padding-right: 30px;
+}
+
+.robota-item:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.footer {
+    background-color: #2F303A;
+    width: 1600px;
+    margin-top: 0;
+}
+
+ .adress {
+    text-decoration: none;
+    font-style: normal;
+
+}
+.adress-item  {
+    text-decoration: none;
+}

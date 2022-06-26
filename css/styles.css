@@ -1,0 +1,289 @@
+:root= {
+    --main-color: #212121;
+    --accent-color: #757575;;
+    --blue-color: #2196F3;
+    --wite-color: #FFFFFF;
+    --backgraund-color: #2F303A;
+    --logo-font: 'Raleway', sans-serif;
+    --main-font: 'Roboto', sans-serif;
+    --main-size: 14px;
+    --title-size: 36px;
+    --nav-size: 49px;
+}
+
+* {
+    box-sizing: border-box;
+   
+}
+body {
+    font: var(--main-font);
+    width: 1600px;
+    size: var(--main-size);
+    
+
+}
+
+.wrapper {
+    background-color: #ECECEC;
+    
+  
+}
+.list {
+    list-style: none;
+
+}
+
+.header {
+    width: 1600px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+} 
+ 
+.navigation {
+    font-family: var(--secondary-font);
+    font-size: var(--main-size);
+    display: flex;
+    margin-left: 215px;
+   
+    
+   
+}
+.logo {
+   
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: #2196F3;
+    padding-top: 0px;
+    align-items: center;
+
+}
+.logo-compani {
+    color:#000000 ;
+}
+.logo-compania {
+    color: #fff;
+}
+.navigation-list {
+   
+    display: flex;
+
+    
+    
+}
+.navigation-items {
+    margin-right: 50px;
+
+}
+.navigation-item:first-child {
+    margin-left: 0;
+}
+.navigation-items:active {
+    color: aqua;
+}
+        
+.navigation-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    
+
+}
+.studio-link {
+    color: var(--blue-color);
+}
+.comunity-list {
+    display: flex;
+    text-decoration: none;
+    padding-right: 215px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    
+    
+
+
+
+}
+.cmomunity-item {
+    margin-right: 50px;
+    color: var(--accent-color);
+}
+.cmomunity-item:hover {
+ color: var(--blue-color);
+}
+
+
+
+.comunity-item:last-child {
+    margin-right: 0;
+}
+.hero {
+    background-color: #2F303A;
+   
+    
+    width: 1600px;
+    height: 600px;
+    
+    margin-top: 0 auto;
+    
+ 
+    align-items: center;
+    
+   
+    
+    
+    
+}
+.hero-title {
+    color: #fff;   
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px; 
+    margin-top: 0; 
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 200px 452px 280px 452px;
+   
+   
+        
+    
+   
+   
+
+   
+   
+}
+.hero-btn {
+    width: 200px;
+    height: 50px;
+    background-color:#2196F3 ;
+    border-radius: 4px;
+    padding: 10px 32px;
+    font-weight: 700px;
+    color: #fff; 
+    cursor: pointer;
+    margin-top: 0;
+    margin: auto;
+    display: block;
+    text-transform: uppercase;
+  
+}
+.benefits {
+    width: 1170px;
+    height: 101px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+.benefits-list {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.benefits-items{
+    width: 270px;
+    height: 101px;
+    margin-right: 30px;
+}
+.benefits-items:nth-last-child(3n+3) {
+    margin-right: 0;
+}
+
+.specialization{
+    width: 1170px;
+    height: 386px;  
+    margin-top: 94px;
+    margin-left: 215px;
+    margin left: 215px;
+    padding: 0;
+    }
+
+.specialization-title {
+    width: 376px;
+    height: 42px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+.specialization-list{
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+   
+        
+
+}
+
+.specialization-item {
+    margin-right: 30px;
+}
+.specialization-item:nth-last-child(3n+3) {
+    margin-right: 0;
+}
+
+
+
+
+.robota{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1170px;
+  height: 1360px;
+  ;
+}
+.command {
+    background-color: #F5F4FA;
+    width: 1600px;
+    height: 648px;
+    
+}
+    
+.comand-title{
+  
+   width: 264px;
+   height: 42px;
+   text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+.comand-list{
+    display: flex;
+    width: 1170px;
+    height: 368px;
+    margin-right: 215px;
+    margin-left: 215px;
+    
+}
+.comand-item {
+    padding-right: 30px;
+   
+}
+.comand-item:nth-last-child(4n+4) {
+    margin-right: 0;
+}
+.project-img: nth-child= 
+    4n+4 {
+    margin-right: 0;
+}
+
+.footer {
+     background-color: #2F303A;
+     width: 1600px;
+}
+.adress {
+    font-style: normal;
+    color: var(--wite-color);
+
+}
